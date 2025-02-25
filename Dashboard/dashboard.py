@@ -10,7 +10,7 @@ st.sidebar.write("🔗 [LinkedIn](https://www.linkedin.com/in/radithya-fawwaz-/)
 st.sidebar.write("🐙 [GitHub](https://github.com/wingscode123)")
 
 # Load data (gunakan df_cleaned yang sudah diproses sebelumnya)
-df_cleaned = pd.read_csv("customers_dataset_v2_cleaned.csv")
+df_cleaned = pd.read_csv("Dashboard\customers_dataset_v2_cleaned.csv")
 
 # Analisis Pelanggan yang Kembali Bertransaksi
 repeat_customers = df_cleaned["customer_unique_id"].value_counts()
